@@ -14,7 +14,7 @@ public class StudentWithLoan extends Student {
     private long moneyToPay;
     private Date dateOfLoanGiving;
     private long payedMoneySoFar;
-    private boolean doesHaveJob;
+    private boolean employed;
     private String accountNumber;
 
     public StudentWithLoan(Student student){
