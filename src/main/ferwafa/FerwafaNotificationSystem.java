@@ -1,7 +1,6 @@
-package main;
+package main.ferwafa;
 
 
 public class FerwafaNotificationSystem {
-    enum card{YELLOW,RED}
 
 }

@@ -4,7 +4,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-@Data
+@Data //this generate setter and getter for us
 public class Student extends Citizen{
     private String universityName;
     private String collageName;

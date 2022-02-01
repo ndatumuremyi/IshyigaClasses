@@ -1,4 +1,6 @@
-package main;
+package main.brdLoan;
+
+import main.Student;
 
 import java.util.ArrayList;
 

@@ -1,11 +1,12 @@
-package main;
+package main.brdLoan;
 
 import lombok.Data;
+import main.Student;
 
 import java.util.Date;
 
-@Data
-public class StudentWithLoan extends Student{
+@Data //this generate setter and getter for us
+public class StudentWithLoan extends Student {
     private long moneyToPay;
     private Date dateOfLoanGiving;
     private long payedMoneySoFar;

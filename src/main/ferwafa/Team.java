@@ -1,11 +1,14 @@
-package main;
+package main.ferwafa;
 
 import lombok.Data;
+import lombok.Singular;
+import main.ferwafa.Player;
 
 import java.util.ArrayList;
 
-@Data
+@Data //this generate setter and getter for us
 public class Team {
+    @Singular
     private ArrayList<Player> players;
     private String headCoachName;
     private Player teamCaptain;
