@@ -12,6 +12,9 @@ public class R {
     public static String  getRandomNid(){
         return "1 " +(1980+r.nextInt(30))+" "+ (r.nextBoolean()?"8 ":"7 ")+String.format("%07d",r.nextInt(9999999))+ " "+ r.nextInt(9)+" "+String.format("%02d", r.nextInt(99));
     }
+    public static String getRandomId(){
+        return "90" +(1980+r.nextInt(1980))+ (r.nextInt(9))+String.format("%07d",r.nextInt(9999999))+ r.nextInt(9)+" "+String.format("%02d", r.nextInt(99));
+    }
 
     public static int getNumberOfStudent() {
         if(numberOfStudent == 0){

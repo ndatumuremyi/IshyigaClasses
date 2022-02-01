@@ -22,6 +22,7 @@ public class Student extends Citizen{
     public Student(Student s){
         this.attendanceGotten = s.attendanceGotten; this.collageName = s.collageName; this.departmentName = s.departmentName;
         this.yearsToStudy = s.yearsToStudy; this.schoolName = s.schoolName; this.universityName = s.universityName;
+        super.setNId(s.getNId()); super.setNames(s.getNames()); super.setDateOfBirth(s.getDateOfBirth()); super.setSex(s.getSex());
     }
     public void attendee(){ attendanceGotten++; }
 }

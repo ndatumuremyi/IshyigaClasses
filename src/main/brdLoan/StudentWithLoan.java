@@ -5,14 +5,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import main.Student;
 
-import java.util.Date;
+import java.util.Calendar;
 
 @Data //this generate setter and getter for us
 @AllArgsConstructor
 @NoArgsConstructor
 public class StudentWithLoan extends Student {
     private long moneyToPay;
-    private Date dateOfLoanGiving;
+    private Calendar dateOfLoanGiving;
     private long payedMoneySoFar;
     private boolean employed;
     private String accountNumber;
