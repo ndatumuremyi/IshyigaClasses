@@ -1,8 +1,5 @@
 package main.brdLoan;
-
-import main.Student;
-
-import java.util.ArrayList;
+import main.Student; import java.util.ArrayList;
 
 
 public class BrdLoanManagement{
@@ -10,4 +7,6 @@ public class BrdLoanManagement{
     private ArrayList<Student> studentsRequestLoan;
     private long budgetSum;
 
+    public void getStudentsWithLoanExceedThisYears(int year){}
+    public void StudentWhoHaveJob(){}
 }

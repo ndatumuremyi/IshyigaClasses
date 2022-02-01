@@ -1,8 +1,6 @@
 package main;
 
-import lombok.Data;
-
-import java.util.Date;
+import lombok.Data; import java.util.Date;
 
 @Data //this generate setter and getter for us
 public class Citizen {
